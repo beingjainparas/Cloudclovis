@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+/public/theme
+.env.local
+.env.dev
+.env.prod

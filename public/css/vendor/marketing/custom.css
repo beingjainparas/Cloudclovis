@@ -1,0 +1,146 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+#logo h2{
+  color: white;
+}
+
+#logo-footer h2{
+  color: white;
+}
+
+html.mm-opening .mm-menu.mm-opened~.mm-slideout {
+    -webkit-transform: translate(80%, 0) !important;
+    -ms-transform: translate(80%, 0) !important;
+    transform: translate(80%, 0) !important;
+    -webkit-transform: translate3d(80%, 0, 0) !important;
+    transform: translate3d(80%, 0, 0) !important;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.reviews-container .review-box {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 0px;
+    min-height: 100px;
+}
+
+@media (max-width: 1024px) {
+    #hero_video {
+        background: #662d91 url(../../img/Cloudclovis/Marketing/Slides/Slider.jpg) !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+    }
+}
+
+#hero_in.courses:before {
+    background: url(../../img/Cloudclovis/Marketing/Slides/Courses_Page.jpg) center center no-repeat !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+#hero_in.courses-details:before {
+    background: url(../../img/Cloudclovis/Marketing/Slides/Courses_Sub_Page.jpg) center center no-repeat !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+#hero_in.courses-details .wrapper {
+    background-color: #372675;
+    background-color: rgba(57, 39, 121, 0.8);
+}
+
+#hero_in.general:before {
+    background: url(../../img/Cloudclovis/Marketing/Slides/About_Us.jpg) center center no-repeat !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+#hero_in.contacts:before {
+  background: url(../../img/Cloudclovis/Marketing/Slides/Conatact_Us.jpg) center center no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+#hero_in.contacts .wrapper {
+    background-color: #372675 !important;
+    background-color: rgba(57, 39, 121, 0.8) !important;
+}
+
+#hero_in.portfolio:before {
+  background: url(../../img/Cloudclovis/Marketing/Slides/Portfolio.jpg) center center no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+#hero_in.portfolio .wrapper {
+    background-color: #372675;
+    background-color: rgba(57, 39, 121, 0.8);
+}
+
+#hero_in.terms:before {
+  background: url(../../img/Cloudclovis/Marketing/Slides/T&C.jpg) center center no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+#hero_in.terms .wrapper {
+    background-color: #372675;
+    background-color: rgba(57, 39, 121, 0.8);
+}
+
+#hero_in.privacy:before {
+  background: url(../../img/Cloudclovis/Marketing/Slides/Privacy.jpg) center center no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+#hero_in.privacy .wrapper {
+    background-color: #372675;
+    background-color: rgba(57, 39, 121, 0.8);
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
+
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus, .was-validated .custom-select:invalid:focus, .custom-select.is-invalid:focus {
+    border-color: #dc3545;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
+
+#login_bg, #register_bg, #admission_bg {
+    background: url(../../img/Cloudclovis/Admin/Slides/login.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
